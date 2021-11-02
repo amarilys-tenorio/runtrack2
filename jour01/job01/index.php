@@ -11,3 +11,5 @@ $myBool = true ;
 echo $myBool , "<br>";
 $myBool = false ;
 echo $myBool , "<br>";
+
+?>
