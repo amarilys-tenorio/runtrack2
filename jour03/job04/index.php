@@ -2,6 +2,7 @@
 
 $chaine = "Dans l'espace, personne ne vous entend crier";
 
-echo $chaine, "<br>", strlen($chaine); 
+for($i=0; isset($str[$i]) == TRUE ;$i++);
 
+echo $i;
 ?>
