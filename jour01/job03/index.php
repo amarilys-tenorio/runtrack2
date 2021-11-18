@@ -1,36 +1,45 @@
 <?php
-$tableau = array(
-    array("type","nom","valeur"),
-    array("Chaîne de caratéres","string","Amarilys"),
-    array("Nombres entiers","int",3),
-    array("Nombres décimaux","float",26.51),
-    array("Booléens","bool","true"),
-    array("Rien","NULL","")
-);
-
-echo "<table border=1>";
-echo "<tr>";
-echo "<th>",$tableau[0][0],"</th>";
-echo "<th>",$tableau[0][1],"</th>";
-echo "<th>",$tableau[0][2],"</th>";
-echo "</tr>";
-echo "<th>",$tableau[1][0],"</th>";
-echo "<th>",$tableau[1][1],"</th>";
-echo "<th>",$tableau[1][2],"</th>";
-echo "</tr>";
-echo "<th>",$tableau[2][0],"</th>";
-echo "<th>",$tableau[2][1],"</th>";
-echo "<th>",$tableau[2][2],"</th>";
-echo "</tr>";
-echo "<th>",$tableau[3][0],"</th>";
-echo "<th>",$tableau[3][1],"</th>";
-echo "<th>",$tableau[3][2],"</th>";
-echo "</tr>";
-echo "<th>",$tableau[4][0],"</th>";
-echo "<th>",$tableau[4][1],"</th>";
-echo "<th>",$tableau[4][2],"</th>";
-echo "</tr>";
-echo "<th>",$tableau[5][0],"</th>";
-echo "<th>",$tableau[5][1],"</th>";
-echo "<th>",$tableau[5][2],"</th>";
+$nombre = 12.3;
+$bool = true;
+$coucou = 45;
+$str = 'Salut';
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<table> 
+  <tr>
+    <th>Type</th>
+    <th>Nom</th>
+    <th>Valeur</th>
+  </tr>
+  <tr>
+    <td>Nombre à virgule flottante</td>
+    <td>$nombre</td>
+    <td>12.3</td>
+  </tr>
+  <tr>
+    <td>Booléen</td>
+    <td>$bool</td>
+    <td>true</td>
+  </tr>
+  <tr>
+    <td>Nombre entier</td>
+    <td>$coucou</td>
+    <td>45</td>
+  </tr>
+  <tr>
+    <td>Chaxne de caractères</td>
+    <td>$str</td>
+    <td>Salut</td>
+  </tr>
+</table>
+</body>
+</html>
