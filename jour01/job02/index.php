@@ -1,7 +1,8 @@
-<?php
-echo 'Hello' , " " , 'LaPlateforme!' , "<br>" ;
-$ama = "Hello" ;
-$ama1 = "LaPlateforme!" ;
-echo $ama , " " , $ama1 ;
+<?php 
+// Coucou
+echo "Hello Laplateforme!",'<br>';
+
+// Coucou différemment
+echo "Hello LaPlateforme!";
 
 ?>
