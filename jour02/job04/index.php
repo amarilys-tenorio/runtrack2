@@ -1,9 +1,30 @@
-<?php 
-for($i =1;$i <= 100;$i++)
-{ if($i%3==0 && $i%5==0) 
-echo"fizzbuzz <br>"; 
-elseif($i%5==0) echo"buzz <br>"; 
-elseif($i%3==0) echo"fizz <br>"; 
-else {echo $i,"<br>"; } 
-} 
+<?php
+
+  $counter = 1;
+
+    while ($counter <= 100){
+  
+    if($counter%15==0) {
+
+    echo"FizzBuzz <br>";
+  }
+
+    elseif ($counter%3==0){
+
+    echo"Fizz <br>";
+  }
+
+    elseif ($counter%5==0){
+    
+    echo"Buzz <br>";
+
+  }
+
+    else {
+      echo $counter , "<br>";
+    }
+
+  $counter++;
+
+}
 ?>
