@@ -1,7 +1,10 @@
 <?php
-$i = 0; 
-while ($i <=1337 ){ if($i!=26 && $i!=37 && $i!=88 && $i!=1111) 
-echo $i,"<br>"; 
-$i++; 
+
+$counter = 0;
+while ($counter <= 1337){
+if($counter != 26 && $counter!=37 && $counter!=88 && $counter!=1111)
+  echo $counter, '<br>';
+  $counter++;
 }
+
 ?>
