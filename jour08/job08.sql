@@ -1,0 +1,1 @@
+SELECT COUNT('etudiants') FROM table

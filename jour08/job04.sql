@@ -1,0 +1,1 @@
+SELECT 'salles' FROM `nom``capacite`

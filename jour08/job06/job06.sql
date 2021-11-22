@@ -1,1 +1,0 @@
-SELECT * from etudiants WHERE prenom LIKE 'T%';
